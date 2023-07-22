@@ -21,7 +21,7 @@ export const LoginForm = () => {
   return (
     <div className={css.wrapper}>
       <form className={css.form} onSubmit={handleSubmit}>
-        <h1 className={css.title}>Login form</h1>
+        <h1 className={css.title}>Login form 👋</h1>
         <div className={css.labels}>
           <label className={css.label}>
             <p className={css.text}>Email</p>

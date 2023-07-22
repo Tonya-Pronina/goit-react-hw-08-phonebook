@@ -1,13 +1,13 @@
 // import { useEffect } from 'react';
 // import { fetchContacts } from 'redux/operations';
-import { useDispatch } from 'react-redux';
+// import { useDispatch } from 'react-redux';
 import { ContactForm } from 'components/ContactForm/ContactForm';
 import { Filter } from 'components/Filter/Filter';
 import ContactList from 'components/ContactList/ContactList';
 import css from './Pages.module.css';
 
 const Contacts = () => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
   // useEffect(() => {
   //   dispatch(fetchContacts());
