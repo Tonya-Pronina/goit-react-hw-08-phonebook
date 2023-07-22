@@ -19,18 +19,13 @@ export const LoginForm = () => {
   };
 
   return (
-    <>
+    <div className={css.wrapper}>
       <form className={css.form} onSubmit={handleSubmit}>
         <h1 className={css.title}>Login form</h1>
         <div className={css.labels}>
           <label className={css.label}>
             <p className={css.text}>Email</p>
-            <input
-              className={css.input}
-              type="email"
-              name="email"
-              required
-            />
+            <input className={css.input} type="email" name="email" required />
           </label>
           <label className={css.label}>
             <p className={css.text}>Password</p>
@@ -49,8 +44,6 @@ export const LoginForm = () => {
           Home
         </NavLink>
       </form>
-    </>
+    </div>
   );
 };
-
-

@@ -8,18 +8,14 @@ export const UserMenu = () => {
   const { isLoggedIn, user } = UseAuth();
   const dispatch = useDispatch();
 
-//   const onLogoutClick = () => {
-//     dispatch(logoutUser());
-//   };
-
   return (
-    <nav className={css.navWrapper}>
+    <nav className={css.wrapper}>
       {isLoggedIn ? (
         <div className={css.userWrapper}>
-          <p className={css.welcomeName}>Welcome, {user.name}!</p>
+          <p className={css.title}>Welcome, {user.name}!</p>
           <button
             type="button"
-            className={css.userMenuBtn}
+            className={css.button}
             onClick={() => dispatch(logout())}
           >
             Log Out

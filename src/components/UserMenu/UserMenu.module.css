@@ -1,0 +1,41 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  min-width: 100%;
+  min-height: 60px;
+}
+
+.userWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.title {
+  color: rgb(151, 169, 195);
+  font-size: 30px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.176) 0px 16px 48px 0px;
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  border: 0;
+
+  cursor: pointer;
+  background-color: rgb(151, 169, 195);
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-bottom: 4px solid #879ec0;
+  font-weight: 600;
+  color: white;
+  line-height: 26px;
+  outline: 0;
+  text-decoration: none;
+}

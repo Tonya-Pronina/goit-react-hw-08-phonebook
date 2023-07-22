@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 export default function ContactListItem({ name, number }) {
   return (
     <div className={css.contactItem}>
-      <p className={css.name}>{name} :</p>
-      <p className={css.number}>{number}</p>
+      <p className={css.title}>{name} :</p>
+      <p className={css.text}>{number}</p>
     </div>
   );
 }

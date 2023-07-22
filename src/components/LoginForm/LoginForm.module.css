@@ -1,0 +1,103 @@
+.wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 100%;
+
+  background-position: center left;
+  background-repeat: no-repeat;
+
+  background-image: url(Depositphotos_163333120_XL.jpg);
+  background-size: cover;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #8eb6cd;
+  box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%),
+    0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.176) 0px 16px 48px 0px;
+  margin-top: 20px;
+}
+
+.text {
+  color: #457590;
+  margin-bottom: 30px;
+}
+
+.input {
+  box-shadow: rgba(0, 0, 0, 0.176) 0px 16px 48px 0px;
+  background: rgba(0, 0, 0, 0);
+  appearance: none;
+  border: 0;
+  border-radius: 8px;
+  width: 100%;
+  position: relative;
+  line-height: 1.4;
+  color: #446aa2;
+  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
+  height: 26px;
+  transition: all 0.2s ease;
+  padding: 9px 12px;
+  color: rgba(0, 0, 0, 0.176);
+}
+
+.input :hover {
+  box-shadow: 0 0 0 0 #446aa2 0 0 0 2px;
+}
+
+.input:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0 rgb(157, 173, 201), #446aa2 0 0 0 3px;
+}
+
+.link {
+  display: inline-block;
+  text-align: center;
+  border: 0;
+  width: 55px;
+  cursor: pointer;
+  background-color: rgb(151, 169, 195);
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-bottom: 4px solid #879ec0;
+  font-weight: 400;
+  color: white;
+  line-height: 26px;
+  outline: 0;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.button {
+  display: inline-block;
+  border: 0;
+  cursor: pointer;
+  background-color: rgb(129, 158, 194);
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-bottom: 4px solid #446aa2;
+  font-weight: 600;
+  color: white;
+  line-height: 26px;
+  outline: 0;
+  text-decoration: none;
+  margin-top: 20px;
+}
